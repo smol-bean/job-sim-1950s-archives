@@ -3,6 +3,8 @@ from time import sleep
 def clear_output():
     for i in range(100):
         print("\n")
+        
+
 clear_output()
 print(" you enter a office cubical that seems oddly familiar. a bot floats up to you.")
 print("'hello welcome to a acurate simulation of OFFICE WORKER. take a slip and start the day.'")
