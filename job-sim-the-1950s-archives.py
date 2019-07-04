@@ -79,6 +79,7 @@ while True:
         print("2: open the box and throw a doughnut at job bot")
         print("3: eat a doughnut then throw one it job bot")
         print("4: exit")
+        print("---------------------------------------------------------------------------------------------")
     if answer == "4":
         break
 clear_output()
