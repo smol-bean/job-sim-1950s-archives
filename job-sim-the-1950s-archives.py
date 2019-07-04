@@ -82,6 +82,7 @@ while True:
         print("4: exit")
         print("---------------------------------------------------------------------------------------------")
         answer = input()
+
     if answer == "1":
         clear_output()
         print("you open the box and there is a small assortment of doughnuts.")
@@ -96,8 +97,11 @@ while True:
         print("another job slip prints from the slot at the end of your desk")
         print("1: take a slip and throw at at job bot")
         print("2: take a slip")
+        print("3: throw something at job bot")
+        print("4: exit")
         print("----------------------------------------------------------------------------------------------")
         answer = input()
+
     if answer == "4":
         break
 clear_output()
