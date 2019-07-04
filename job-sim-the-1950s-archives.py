@@ -18,7 +18,7 @@ answer = input()
 while True:
     if answer == "1":
         clear_output()
-        print("you threw a stapler at job bot.")
+        print("you threw a stapler at job bot.")# find out how to fix this one
         print("sparks flew from it.")
         print("1: exit")
         print("--------------------------------------------------------------------------------------------")
@@ -62,7 +62,7 @@ while True:
         print("1: continue job")
         print("---------------------------------------------------------------------------------------------")
         answer = input()
-        answer = "1"
+        answer = "2"
     elif answer == "2":
         clear_output()
         print("you throw a mug at job bot.")
@@ -71,18 +71,17 @@ while True:
         print("---------------------------------------------------------------------------------------------")
         answer = input()
         answer = "2"
-    elif answer == "3":
+    if answer == "3":
         clear_output()
         print("you drink you coffee and as you finish you here a ding from the board.")
         print("then you throw the coffee mug at job bot.")
         print("'good. humans would also often indulge in treats called DOUGHNUTS. take a DOUGHNUT and lets get moving.'")
         print("1: open the box and eat a doughnut")
         print("2: open the box and throw a doughnut at job bot")
-        print("3: eat a doughnut then throw one it job bot")
+        print("3: eat a doughnut then throw one at job bot")
         print("4: exit")
         print("---------------------------------------------------------------------------------------------")
         answer = input()
-
     if answer == "1":
         clear_output()
         print("you open the box and there is a small assortment of doughnuts.")
@@ -101,7 +100,45 @@ while True:
         print("4: exit")
         print("----------------------------------------------------------------------------------------------")
         answer = input()
-
+    elif answer == "2":
+        print("you throw a doughnut at job bot")
+        print("and the sparks fly.")
+        print("1: back to job")
+        answer = input()
+        answer = "3"
+    if answer == "3":
+        clear_output()
+        print("you open the box and there is a small assortment of doughnuts.")
+        print("you pick up a doughnut then throw it at job bot and sparks fly from the bot.")
+        print("you chose the doughnut with blue frosting and sprinkles and eat it.")
+        print("the board dings as the images fly of the screen.")
+        sleep(5)
+        clear_output()
+        print("JOB COMPLETE")
+        sleep(3)
+        clear_output()
+        print("'good now take a slip and lets start another job'")
+        print("another job slip prints from the slot at the end of your desk")
+        print("1: take a slip and throw at at job bot")
+        print("2: take a slip")
+        print("3: throw something at job bot")
+        print("4: exit")
+        print("----------------------------------------------------------------------------------------------")
+        answer = input()
+    if answer == "1":
+        clear_output()
+        print("you take the job slip and start you next job.")
+        print("'now it is time for you to use COMPUTER'")
+        print("'turn on the tower and lets get started.'")
+        print("1: attempt to turn on the computer and the tower")
+        print("2: hit the tower in hopes it turns on.")
+        print("3: check to make sure the computer and the tower is plugged in")
+        print("4: exit")
+        sleep(5)
+        clear_output()
+        print("DEMO COMPLETE")
+        sleep(5)
+        break
     if answer == "4":
         break
 clear_output()
