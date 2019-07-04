@@ -62,7 +62,7 @@ while True:
         print("1: continue job")
         print("---------------------------------------------------------------------------------------------")
         answer = input()
-        answer = "2"
+        answer = "1"
     elif answer == "2":
         clear_output()
         print("you throw a mug at job bot.")
@@ -72,6 +72,7 @@ while True:
         answer = input()
         answer = "2"
     elif answer == "3":
+        clear_output()
         print("you drink you coffee and as you finish you here a ding from the board.")
         print("then you throw the coffee mug at job bot.")
         print("'good. humans would also often indulge in treats called DOUGHNUTS. take a DOUGHNUT and lets get moving.'")
@@ -80,6 +81,23 @@ while True:
         print("3: eat a doughnut then throw one it job bot")
         print("4: exit")
         print("---------------------------------------------------------------------------------------------")
+        answer = input()
+    if answer == "1":
+        clear_output()
+        print("you open the box and there is a small assortment of doughnuts.")
+        print("you chose the doughnut with blue frosting and sprinkles and eat it.")
+        print("the board dings as the images fly of the screen.")
+        sleep(5)
+        clear_output()
+        print("JOB COMPLETE")
+        sleep(3)
+        clear_output()
+        print("'good now take a slip and lets start another job'")
+        print("another job slip prints from the slot at the end of your desk")
+        print("1: take a slip and throw at at job bot")
+        print("2: take a slip")
+        print("----------------------------------------------------------------------------------------------")
+        answer = input()
     if answer == "4":
         break
 clear_output()
